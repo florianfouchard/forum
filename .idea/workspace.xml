@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dd86e02-9222-4251-8794-4f3d6e65236f" name="Default" comment="new version">
+    <list default="true" id="1dd86e02-9222-4251-8794-4f3d6e65236f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/public/tps/components/comment.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/public/tps/components/topic.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/public/demos/3-event/e-event-scope.html" afterPath="$PROJECT_DIR$/angular/public/demos/3-event/e-event-scope.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/public/tps/forum.js" afterPath="$PROJECT_DIR$/angular/public/tps/forum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/public/tps/fora.css" afterPath="$PROJECT_DIR$/angular/public/tps/fora.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/public/tps/forum.html" afterPath="$PROJECT_DIR$/angular/public/tps/forum.html" />
     </list>
     <ignored path="angular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,16 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="forum.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/public/tps/forum.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mock-data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/public/demos/mock-data.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,38 +45,58 @@
       <file leaf-file-name="forum.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/public/tps/forum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="308">
+              <caret line="14" column="9" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a-directive.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/public/demos/7-directive/a-directive.html">
+      <file leaf-file-name="forum.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/public/tps/forum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="640">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="e-component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/public/demos/7-directive/e-component.html">
+      <file leaf-file-name="comment.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/public/tps/components/comment.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="33">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <marker date="1478790033084" expanded="true" signature="89:173" ph="..." />
+                <marker date="1478790033084" expanded="true" signature="243:309" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-root.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular/public/demos/7-directive/templates/application-root.html">
+      <file leaf-file-name="topic.component.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular/public/tps/components/topic.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="583">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+              <folding>
+                <marker date="1478791996448" expanded="true" signature="60:192" ph="..." />
+                <marker date="1478791996448" expanded="true" signature="142:174" ph="..." />
+                <marker date="1478791996448" expanded="true" signature="219:549" ph="..." />
+                <marker date="1478791996448" expanded="true" signature="275:371" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fora.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/public/tps/fora.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -103,11 +118,13 @@
         <option value="$PROJECT_DIR$/angular/public/demos/3-event/c-outside-event.html" />
         <option value="$PROJECT_DIR$/angular/public/tps/forum.css" />
         <option value="$PROJECT_DIR$/angular/public/demos/4-forms/a-form.html" />
-        <option value="$PROJECT_DIR$/angular/public/tps/fora.css" />
-        <option value="$PROJECT_DIR$/angular/public/tps/forum.html" />
-        <option value="$PROJECT_DIR$/angular/public/tps/forum.js" />
         <option value="$PROJECT_DIR$/angular/public/demos/3-event/e-event-scope.html" />
         <option value="$PROJECT_DIR$/angular/public/demos/7-directive/a-directive.html" />
+        <option value="$PROJECT_DIR$/angular/public/tps/fora.css" />
+        <option value="$PROJECT_DIR$/angular/public/tps/components/comment.component.js" />
+        <option value="$PROJECT_DIR$/angular/public/tps/forum.html" />
+        <option value="$PROJECT_DIR$/angular/public/tps/forum.js" />
+        <option value="$PROJECT_DIR$/angular/public/tps/components/topic.component.js" />
       </list>
     </option>
   </component>
@@ -206,6 +223,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -420,7 +463,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="submit&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="createC&#9;null&#9;null&#10;submit&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -489,7 +536,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478679064888</updated>
-      <workItem from="1478679066054" duration="25933000" />
+      <workItem from="1478679066054" duration="33598000" />
     </task>
     <task id="LOCAL-00001" summary="new version">
       <created>1478773056434</created>
@@ -498,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478773056434</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new version">
+      <created>1478782767899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1478782767899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25933000" />
+    <option name="totallyTimeSpent" value="33598000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -515,17 +569,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1604" height="1047" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21328224" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.49744573" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5025543" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.49744573" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18708971" sideWeight="0.41826308" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18708971" sideWeight="0.58492976" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18708971" sideWeight="0.5817369" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -662,14 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/public/tps/fora.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/public/demos/4-forms/d-error.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-902">
@@ -720,26 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/public/tps/forum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/public/demos/3-event/e-event-scope.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/public/tps/forum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -770,9 +800,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/public/demos/7-directive/templates/application-root.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="286">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/public/tps/fora.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/public/tps/components/comment.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <marker date="1478790033084" expanded="true" signature="89:173" ph="..." />
+            <marker date="1478790033084" expanded="true" signature="243:309" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/public/tps/forum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="9" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/public/tps/forum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/public/tps/components/topic.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <marker date="1478791996448" expanded="true" signature="60:192" ph="..." />
+            <marker date="1478791996448" expanded="true" signature="142:174" ph="..." />
+            <marker date="1478791996448" expanded="true" signature="219:549" ph="..." />
+            <marker date="1478791996448" expanded="true" signature="275:371" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

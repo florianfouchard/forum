@@ -16,7 +16,6 @@
     width : 20%;
     border : 1px solid black;
     box-shadow: 10px 10px 5px #656565;
-    height : 33%;
     display : inline-block;
 }
 
@@ -38,4 +37,12 @@ h2{
     box-shadow: 10px 10px 5px #656565;
     height : 8%;
 
+}
+
+.neg{
+    color: red;
+}
+
+.pos{
+    color: green;
 }

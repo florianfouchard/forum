@@ -15,14 +15,16 @@
     <script type="text/javascript" src="../javascripts/libs/angular.min.js"></script>
     <script type="text/javascript" src="../javascripts/mock-data.js"></script>
     <script type="text/javascript" src="forum.js"></script>
-
+    <script type="text/javascript" src="components/comment.component.js"></script>
+    <script type="text/javascript" src="components/topic.component.js"></script>
 
     <style>
-        .like{
-            color : green;
+        .like {
+            color: green;
         }
-        .dislike{
-             color: red;
+
+        .dislike {
+            color: red;
         }
 
     </style>
@@ -42,24 +44,13 @@
     <div class="topics">
         <h3> Topics : </h3>
         <div class="topic">
-        <select ng-model="model.selectedTopic" ng-options="topic.title for topic in topics"></select>
-        <hr>
-            <h4>{{model.selectedTopic.title}}</h4>
-            <ul>
-                <li ng-repeat="comment in model.selectedTopic.comments">
-                    {{!comment.user.name ? "Anonymous" : comment.user.name}} said  : " {{comment.content}} "
-                </li>
-            </ul>
+            <select ng-model="model.selectedTopic" ng-options="topic.title for topic in topics">
+
+            </select>
+            <show-topic topic="model.selectedTopic" users="users"></show-topic>
+
         </div>
-
-        <form novalidate>
-            <select ng-model="commentModel.user" ng-options="user.name for user in users"></select>
-            <textarea ng-model="commentModel.content" required></textarea>
-            <button ng-click='createComment(commentModel)'>Submit</button>
-        </form>
-
     </div>
-
 
 
 </div>
