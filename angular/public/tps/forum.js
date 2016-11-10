@@ -11,6 +11,7 @@ angular.module("forum", [])
 
         $scope.createComment = function(commentModel){
             $scope.model.selectedTopic.comments.push(angular.copy(commentModel));
+            $scope.commentModel={};
         }
 
         $scope.topics = globals.topics;

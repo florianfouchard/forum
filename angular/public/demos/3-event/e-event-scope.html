@@ -75,10 +75,14 @@
 
                 $scope.data = "Some data";
 
+                $scope.$on("up", function(event, newData){
+                    $scope.data=newData;
+                });
+
                 $scope.$on("sync:down", function(event,topData, oldData){
-                    $scope.data = topData
+                    $scope.data = topData;
                     alert("top says : "+topData+", was : "+oldData)
-                })
+                });
 
                 $scope.sync = function(){
                     $rootScope.$broadcast("sync:down", "Veuillez vous synchroniser")
@@ -88,7 +92,8 @@
             })
             .controller("ChildCtrl", function ($scope) {
 
-                $scope.data = "Child Data";
+                $scope.data = "replaced top Data by other val";
+                $scope.childData = "Child Data";
 
                 $scope.up = function(){
                     $scope.$emit("up", $scope.childData)
@@ -96,6 +101,7 @@
 
                 $scope.$on("sync:down", function(event,fatherData){
                     $scope.childData = fatherData;
+
                 })
 
             })
