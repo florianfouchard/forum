@@ -4,9 +4,21 @@ angular.module("forum", [])
         $scope.users = globals.users;
 
         $scope.topics = globals.topics;
+
+        $scope.model={
+            selectedTopic : undefined
+        }
+
+        $scope.createComment = function(commentModel){
+            $scope.model.selectedTopic.comments.push(angular.copy(commentModel));
+        }
+
+        $scope.topics = globals.topics;
+        $scope.users = globals.users;
      
 
     })
+
     
     .factory("userService", function($q, $http, apiService){
 
@@ -24,7 +36,8 @@ angular.module("forum", [])
                         return user.admin;
                     })
                 })
-            }
+            },
+
         };
         return service;
     }).factory("apiService", function(){
@@ -34,6 +47,8 @@ angular.module("forum", [])
         }
         return service;
     })
+
+
 
 
 

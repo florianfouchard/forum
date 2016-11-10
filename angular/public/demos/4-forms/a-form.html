@@ -63,13 +63,22 @@
 
     angular.module("demo", [])
             .controller("AppCtrl", function ($scope) {
-                $scope.model = {}
+                $scope.model = {
+                    original : undefined,
+                    current : undefined
+                };
                 $scope.users = globals.users;
 
-                //TODO : le reset() ne marche pas
-                // Créer une fonction edit()
-                // Utiliser angular.copy()
-                //checker le bouton radio
+                $scope.createCopy = function(user){
+                    var copy = angular.copy(user);
+                    $scope.model.original = user;
+                    $scope.model.current = copy;
+                };
+
+                $scope.update= function(user){
+                    Object.assign($scope.model.original, $scope.model.current);
+
+                }
 
             })
 
