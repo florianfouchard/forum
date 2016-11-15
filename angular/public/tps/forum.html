@@ -17,6 +17,8 @@
     <script type="text/javascript" src="forum.js"></script>
     <script type="text/javascript" src="components/comment.component.js"></script>
     <script type="text/javascript" src="components/topic.component.js"></script>
+    <script type="text/javascript" src="services/userService.js"></script>
+    <script type="text/javascript" src="services/topicService.js"></script>
 
     <style>
         .like {
@@ -47,7 +49,10 @@
             <select ng-model="model.selectedTopic" ng-options="topic.title for topic in topics">
 
             </select>
-            <show-topic topic="model.selectedTopic" users="users"></show-topic>
+
+            <show-topic topic="model.selectedTopic" users="users">
+
+            </show-topic>
 
         </div>
     </div>

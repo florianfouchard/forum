@@ -13,17 +13,21 @@ const myTemplate =`
 
 `;
 
-function CommentController (){
+function CommentController ($http){
     this.comment.score=0;
+    this.$http=$http;
 }
 
 CommentController.prototype = {
     up(){
         this.comment.score ++;
+        this.$http.put('/api/comments/'+this.comment.id, this.comment);
+
     },
 
     down(){
         this.comment.score --;
+        this.$http.put('/api/comments/'+this.comment.id, this.comment);
     },
 
     getScoreClass(){

@@ -1,5 +1,5 @@
 angular.module("forum", [])
-    .controller("ForumController", function($scope, $http, userService)  {
+    .controller("ForumController", function($scope, userService, topicService)  {
 
         $scope.users = globals.users;
 
@@ -9,45 +9,22 @@ angular.module("forum", [])
             selectedTopic : undefined
         }
 
-        $scope.createComment = function(commentModel){
-            $scope.model.selectedTopic.comments.push(angular.copy(commentModel));
-            $scope.commentModel={};
-        }
+        $scope.users = userService.getUsers() //PROMESSE !!!
+            .then(users => $scope.users = users);
 
-        $scope.topics = globals.topics;
-        $scope.users = globals.users;
-     
 
-    })
+        $scope.topics = topicService.getTopics()
+            .then(topics =>$scope.topics = topics);
 
-    
-    .factory("userService", function($q, $http, apiService){
+        /*const p1 = topicService.getTopics();
 
-        var users = null; // could be used as a cache
+        const p2 = p1.then(topics =>{
+            $scope.topics = topics;
+        });*/
 
-        var service = {
 
-            getUsers : function(){
-               
-            },
-            getAdmins : function(){
-                return service.getUsers().then(function(users){
-                    //filter, map, some, foreach
-                    return users.filter(function(user){
-                        return user.admin;
-                    })
-                })
-            },
 
-        };
-        return service;
-    }).factory("apiService", function(){
-
-        var service ={
-            root : "http://localhost:3000/api/"
-        }
-        return service;
-    })
+    });
 
 
 

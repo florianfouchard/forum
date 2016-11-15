@@ -35,18 +35,18 @@
 
     angular.module("demo", [])
             //see the injection
-            .controller("AppCtrl", function ($scope, usersService) {
+            .controller("AppCtrl", function ($scope, usersFactoryService) {
 
                 $scope.users = globals.users;
-                $scope.admins = usersService.getAdmins();
+                $scope.admins = usersFactoryService.getAdmins();
 
 
                 /**
                  * TODO :
                  *  count admins using the same service
                  */
-                console.log('userService', usersService);
-                $scope.count = usersService.getAdmins().length;
+                console.log('userService', usersFactoryService);
+                $scope.count = usersFactoryService.getAdmins().length;
 
 
             })

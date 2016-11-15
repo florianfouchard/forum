@@ -13,7 +13,7 @@
 
 <div>
 
-    <application-root-component></application-root-component>
+    <application-root-component serious></application-root-component>
 
 </div>
 
@@ -68,8 +68,22 @@
                     loggedIn : '<'
                 },
                 controller : UserPanelCtrl
-            });
+            })
+            .directive("serious", function(){
 
+                return{
+
+                    restrict : 'A', //only attribute
+                    link : function(scope, element, attribute){
+                        console.log('scope', scope);
+                        console.log('element', element);
+                        console.log('attribute', attribute);
+
+                        //const jqElement = angular.element...
+                    }
+
+                }
+            })
 
 
 
